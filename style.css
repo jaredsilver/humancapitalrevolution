@@ -73,6 +73,18 @@ p {
 }
 a, a:visited {
   color: #005A93;
+  background: rgba(255, 255, 255, 0.75);
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 1.2em;
+  padding: 0.5em;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px #2B8DC6;
+}
+
+a:hover {
+  background: rgba(255, 255, 255, 0.85);
 }
 
 @media(max-width: 600px) {
